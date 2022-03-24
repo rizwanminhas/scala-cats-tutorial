@@ -6,3 +6,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-cats-tutorial"
   )
+
+libraryDependencies ++= Seq("org.typelevel" %% "cats-effect" % "3.3.6")
